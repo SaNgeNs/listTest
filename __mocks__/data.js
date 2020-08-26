@@ -6,7 +6,7 @@ export const data = [
     nickname: "qwerty",
     platforms: ["120709", "1452874", "50125"],
     products: 101,
-    rating: 2050,
+    rating: 50,
     sales: 2,
   },
   {
@@ -16,7 +16,7 @@ export const data = [
     nickname: "pop",
     platforms: ["1", "2", "3", "4", "5", "6", "7"],
     products: 741,
-    rating: 278.31,
+    rating: 30.3,
     sales: 82283,
   },
   {
@@ -26,7 +26,7 @@ export const data = [
     nickname: "li",
     platforms: ["1", "2", "3", "4", "5"],
     products: 741,
-    rating: 278.31,
+    rating: 60,
     sales: 6663,
   },
   {
@@ -46,7 +46,7 @@ export const data = [
     nickname: "jack",
     platforms: ["1", "2", "3", "4", "5", "6", "7", "8"],
     products: 741,
-    rating: 33,
+    rating: 10,
     sales: 12,
   },
 ];
