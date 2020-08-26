@@ -1,0 +1,23 @@
+doctype html
+html(lang=(locale || 'en'))
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='x-dns-prefetch-control', content="on")
+        meta(http-equiv='x-ua-compatible', content='ie=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1 maximum-scale=1')
+        != helmetTitle
+        != helmetMeta
+        != helmetLinks
+
+        if styles
+          !=styles
+
+    body
+    div#root
+        != application
+
+    script.
+          window.__APOLLO_STATE__ = !{JSON.stringify(state || {}).replace(/</g, '\\u003c')};
+
+    if scripts
+      != scripts

@@ -1,0 +1,29 @@
+.Main {
+
+  .Field {
+    max-width: 1326px;
+    margin: 0 auto 20px auto;
+  }
+
+  &__showMore {
+    color: #fff;
+    font-size: 14px;
+    background: linear-gradient(180deg,#42a5f5,#2196f3);
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin: 0 auto 40px auto;
+    display: block;
+    height: 40px;
+    min-width: 150px;
+
+    &:hover {
+      background: linear-gradient(180deg, #2196f3, #1976d2);
+    }
+
+    &:disabled {
+      background: transparent;
+      border: 2px solid #b0bec5;
+      cursor: not-allowed;
+    }
+  }
+}
